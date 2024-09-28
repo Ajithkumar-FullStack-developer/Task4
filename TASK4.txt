@@ -1,0 +1,21 @@
+{
+  "name": "Ajithkumar",
+  "education": {
+    "degree": "BCA",
+    "institution": "Thiruvalluvar University"
+  },
+  "current_studies": {
+    "course": "MERN Stack",
+    "institution": "GUVI",
+    "batch": "Weekend"
+  },
+  "experience": {
+    "company": "Integra Software Services Ltd",
+    "position": "Employee",
+    "status": "Working"
+  },
+  "skills": [
+    "Volleyball",
+    "Table Tennis"
+  ]
+}
