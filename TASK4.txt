@@ -4,7 +4,7 @@
     "degree": "BCA",
     "institution": "Thiruvalluvar University"
   },
-  "current_studies": {
+  "online_studies": {
     "course": "MERN Stack",
     "institution": "GUVI",
     "batch": "Weekend"
@@ -19,3 +19,39 @@
     "Table Tennis"
   ]
 }
+
+-----------------------------------------------------------------
+LOOPING 
+-------
+Using for loop
+
+let skills = ["Volleyball", "Table Tennis"];
+
+for (let i = 0; i < skills.length; i++) {
+    console.log(skills[i]);
+}
+
+----------------------------------------------------------------------
+using for in loop
+
+let education = {
+    degree: "BCA",
+    institution: "Thiruvalluvar University"
+};
+
+for (let key in education) {
+    console.log(key + ": " + education[key]);
+}
+------------------------------------------------
+using for of loop
+
+for (let skill of skills) {
+    console.log(skill);
+}
+
+---------------------------------------------------
+using for each loop
+
+skills.forEach(function(skill) {
+    console.log(skill);
+});
